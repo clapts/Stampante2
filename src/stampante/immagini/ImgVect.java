@@ -3,7 +3,7 @@ import stampante.forme.*;
 import stampante.colore.Colore;
 import java.util.ArrayList;
 
-public class  ImgVect {
+public class  ImgVect implements Stampabile{
 
     private ArrayList<Forma> forme;
     private int contForme;
@@ -39,7 +39,6 @@ public class  ImgVect {
 
     public double[] getAllInk(){
         double[] ink= new double[3];
-        double[] temp;
         for (Forma forma : forme) {
             ink[0] += forma.getColAreRed();
             ink[1] += forma.getColAreGrean();
@@ -70,5 +69,10 @@ public class  ImgVect {
             ink += forma.getColAreBlue();
         }
         return ink;
+    }
+
+    @Override
+    public void stampa() {
+
     }
 }
