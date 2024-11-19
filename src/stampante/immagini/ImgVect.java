@@ -3,7 +3,7 @@ import stampante.forme.*;
 import stampante.colore.Colore;
 import java.util.ArrayList;
 
-public class ImgVect {
+public class  ImgVect {
 
     private ArrayList<Forma> forme;
     private int contForme;
