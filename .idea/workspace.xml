@@ -5,12 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d20f2597-b79b-469b-b1af-99111db39843" name="Changes" comment="Stampabile">
-      <change afterPath="$PROJECT_DIR$/src/stampante/stampante/Stampante.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stampante/stampante/cartucca/Cartuccia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stampante/stampante/cartucca/CartucciaBlue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stampante/stampante/cartucca/CartucciaGreen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stampante/stampante/cartucca/CartucciaRed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stampante/stampante/cartucca/exception/EndInkException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stampante/immagini/ImgRaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stampante/immagini/ImgRaster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stampante/immagini/ImgVect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stampante/immagini/ImgVect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stampante/stampante/Stampante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stampante/stampante/Stampante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stampante/stampante/cartucca/Cartuccia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stampante/stampante/cartucca/Cartuccia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stampante/stampante/cartucca/CartucciaBlue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stampante/stampante/cartucca/CartucciaBlue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stampante/stampante/cartucca/CartucciaGreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stampante/stampante/cartucca/CartucciaGreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stampante/stampante/cartucca/CartucciaRed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stampante/stampante/cartucca/CartucciaRed.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +28,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Exception" />
       </list>
     </option>
   </component>
@@ -53,23 +60,27 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/dervi/iCloudDrive/UNI/java uni/Stampante2&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;/Users/claudiodervishi/Library/Mobile Documents/com~apple~CloudDocs/UNI/java uni/Stampante2/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.21829.227" />
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-IU-242.21829.227" />
       </set>
     </attachedChunks>
   </component>
@@ -82,7 +93,10 @@
       <option name="presentableId" value="Default" />
       <updated>1732014700893</updated>
       <workItem from="1732014702314" duration="650000" />
-      <workItem from="1732017420438" duration="3289000" />
+      <workItem from="1732017420438" duration="4504000" />
+      <workItem from="1732027087244" duration="6541000" />
+      <workItem from="1732136345823" duration="224000" />
+      <workItem from="1732138710474" duration="24000" />
     </task>
     <task id="LOCAL-00001" summary="Caricamento file">
       <option name="closed" value="true" />
@@ -108,7 +122,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732020422946</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Stampabile">
+      <option name="closed" value="true" />
+      <created>1732022206423</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1732022206423</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,16 +140,5 @@
     <MESSAGE value="Caricamento file" />
     <MESSAGE value="Stampabile" />
     <option name="LAST_COMMIT_MESSAGE" value="Stampabile" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

@@ -9,7 +9,7 @@ public class  ImgVect implements Stampabile{
     private int contForme;
     private Forma lastForma;
 
-    public ImgVect(int numForme) {
+    public ImgVect() {
         this.forme = new ArrayList<Forma>();
         contForme = 0;
     }
@@ -73,6 +73,9 @@ public class  ImgVect implements Stampabile{
 
     @Override
     public void stampa() {
-
+        System.out.println("imgVect");
+        for(Forma forma : forme){
+            System.out.println("R: "+forma.getColAreRed()+" G: "+forma.getColAreGrean()+ " B: "+forma.getColAreBlue());
+        }
     }
 }

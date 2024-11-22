@@ -16,6 +16,17 @@ public class ImgRaster implements Stampabile {
 
     @Override
     public void stampa() {
+        double r=getInkRed();
+        double g=getInkGreen();
+        double b=getInkBlue();
+        double tot=r+g+b;
+
+        r=r/tot*100;
+        g=g/tot*100;
+        b=b/tot*100;
+
+        System.out.println("img raster");
+        System.out.println("R:" +r+" G:" +g+" B:" +b);
 
     }
 
